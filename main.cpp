@@ -1,5 +1,6 @@
 #include <iostream>
-#include <iomanip>
+#include <climits>
+#include <cfloat>
 
 using namespace std;
 
@@ -28,5 +29,21 @@ int main()
   cout << "% => char(12) && int(5) =" << " " << char(12) % int(5) << endl;
   cout << "Всроенные фунции" << endl;
   cout << "pow, sqrt, sin, cos, tan, atan";
-  return 0;
+
+   /*6
+    std::cout << std::endl;
+    int a = 5;
+    int b = 8;
+    std::cout << a << " * " << b << " = " << a * b << std::endl;
+    
+    std::cout << std::endl;
+    double a1 = 5.5;
+    double b1 = 8.5;
+    std::cout << a1 << " - " << b1 << " = " << a1 - b1 << std::endl;
+    
+    std::cout << std::endl;
+    bool a2 = false;
+    bool b2 = true;
+    std::cout << a2 << " + " << b2 << " = " << a2 + b2 << std::endl;
+    return 0;
 }
