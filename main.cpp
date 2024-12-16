@@ -30,7 +30,7 @@ int main()
   cout << "Всроенные фунции" << endl;
   cout << "pow, sqrt, sin, cos, tan, atan";
 
-   /*6
+   #6
     std::cout << std::endl;
     int a = 5;
     int b = 8;
